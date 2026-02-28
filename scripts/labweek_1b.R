@@ -34,5 +34,5 @@ ggplot(
   labs(
     title="Air quality GGPLOT Histogram",
     y = "Frequency")+
-  facet_wrap(year)
+  facet_wrap(~Month)+
 theme_light()
